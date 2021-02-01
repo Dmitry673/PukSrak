@@ -30,18 +30,16 @@ body {
     background-color: rgba(234, 234, 234, 0.67);
     width: 38vh;
     height: 100vh;
-    display: inline-block;
     z-index: -1;
-    position: relative;
     position: fixed;
     float: left;
 }
 .left-inblock {
     width: 38vh;
     height:5%;
-    display: inline-block;
-    background-color: #eaeaea;
-    border-bottom:  1px solid black;
+float: left;
+        box-shadow:  -1px 5px  10px;
+    border-radius: 10px;
 }
 .up-inblock {
     max-width: 20%;
@@ -75,11 +73,16 @@ body {
     float: left;
     display: grid;
 }
+.textarea {
+    outline:none;
+    appearance: none;
+	border: 1px solid #999; /* указание этого свойства также удалит обводку в FireFox */
+    font-size: 24px;
+    background-color: rgba(234, 234, 234, 0.95);
+    
+}
 .gen-block {
-    float: left;
-
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 50px 50px;
+    
 }
 ::-webkit-scrollbar {
   width: 9px;
