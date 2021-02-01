@@ -6,8 +6,8 @@ body {
 }
 .up-block {
     background-color: #1f90b7;
-    width: auto;
-    height: 48px;
+    width: 198vh;
+    height: 6vh;
     z-index: 2;
 
 }
@@ -18,38 +18,34 @@ body {
     margin-left: 1350px;
     margin-top: -100px;
     display: inline-block;
-
 }
-
 .up-inblock-login {
     height: 50px;
     width: 20%;
     background-color: rgba(64, 189, 232, 0.8);
     margin-left: 950px;
     margin-top: -68px;
-
 }
 .left-block {
     background-color: rgba(234, 234, 234, 0.67);
-    width: 20%;
-    height: 1500px;
+    width: 38vh;
+    height: 100vh;
     display: inline-block;
     z-index: -1;
     position: relative;
     position: fixed;
     float: left;
 }
-
 .left-inblock {
-    width: 100%;
-    height: 40px;
+    width: 38vh;
+    height:5%;
     display: inline-block;
     background-color: #eaeaea;
     border-bottom:  1px solid black;
 }
 .up-inblock {
-    width: 20%;
-    height: 48px;
+    max-width: 20%;
+    max-height: 48px;
     display: inline-block;
     background-color: #1f90b7;
 }
@@ -64,12 +60,11 @@ body {
     margin-top: 7px;
     margin-left: 7px;
     font-size: 25px;
-    font-family: Geneva;
     text-align: center;
 }
 .scroll-block {
-        width: 1460px;
-    height: 870px;
+        max-width: 153vh;
+    max-height: 87vh;
     margin: 15px;
     background-color: rgba(234, 234, 234, 0.95);
     overflow-y: scroll;
@@ -82,26 +77,22 @@ body {
 }
 .gen-block {
     float: left;
-        display: grid;
+
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 50px 50px;
 }
-/* width */
 ::-webkit-scrollbar {
   width: 9px;
 }
 ::-webkit-scrollbar-track {
 }
-/* Track */
 ::-webkit-scrollbar-track {
   background: rgba(234, 234, 234, 0);
 }
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
     border-radius: 40px
 }
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
