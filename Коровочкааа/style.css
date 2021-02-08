@@ -1,15 +1,12 @@
 body {
     background-color: #ffffff;
-    margin: 0;
-    padding: 0;
     background: url(img/645.jpg);
-   text-overflow: scroll;
+    margin: 0;
 }
 .up-block {
     background-color: #1f90b7;
     width: 198vh;
     height: 6vh;
-    z-index: 2;
 
 }
 .up-inblock-info {
@@ -31,15 +28,12 @@ body {
     background-color: rgba(255, 255, 255, 0.62);
     width: 38vh;
     height: 100vh;
-    z-index: -1;
     position: fixed;
     float: left;
-    
 }
 .left-inblock {
     width: 38vh;
     height:5%;
-float: left;
         box-shadow:  -1px 5px  10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.39);
@@ -52,7 +46,6 @@ float: left;
     background-color: #1f90b7;
 }
 .title-text {
-    text-decoration-color: white;
     text-align: center;
     font-size: 29px;
     font-family: Geneva;
@@ -77,23 +70,11 @@ float: left;
     float: left;
     display: grid;
 }
-.textarea {
-    outline:none;
-    appearance: none;
-	border: 1px solid #999; /* указание этого свойства также удалит обводку в FireFox */
-    font-size: 24px;
-    background-color: rgba(234, 234, 234, 0.95);
-    
-}
 .title {
-    text-align: right;
     font-size: 30px;
     margin-top: 10px;
     margin-left: 100px;
     box-shadow: -1px 5px 10px;
-}
-.gen-block {
-    
 }
 ::-webkit-scrollbar {
   width: 9px;
@@ -110,9 +91,3 @@ float: left;
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-up-inblock-block {
-    display: inline-block;
-            width: 1000px;
-    height: 4800px;
-}
-
