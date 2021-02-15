@@ -5,8 +5,8 @@ body {
 }
 .up-block {
     background-color: #1f90b7;
-    width: 198vh;
-    height: 6vh;
+    width: 4000vh;
+    height: 60px;
 
 }
 .up-inblock-info {
@@ -38,6 +38,7 @@ body {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.39);
     background: url(img/5Gc32ocqKxM.jpg)
+        
 }
 .up-inblock {
     max-width: 20%;
@@ -57,24 +58,34 @@ body {
     font-size: 30px;
     text-align: left;
 }
+.subtitle-button-text {
+    text-decoration-color: white;
+    margin-top: 7px;
+    margin-left: 7px;
+     font-size: 3vh;
+    line-height: 1vh;
+    text-align: left;
+}
 .scroll-block {
         max-width: 153vh;
     max-height: 87vh;
-    margin: 15px;
+    margin: 2vh;
     background-color: rgba(234, 234, 234, 0.95);
     overflow-y: scroll;
     box-shadow:  -1px 5px  10px;
     border-radius: 10px;
-    padding: 10px;
-    margin-left: 400px;
+    padding: 10;
+    margin-left: 40vh;
+    margin-right: 1vh;
     float: left;
     display: grid;
+    
 }
 .title {
     font-size: 30px;
     margin-top: 10px;
     margin-left: 100px;
-    box-shadow: -1px 5px 10px;
+    box-shadow: 1px -3px 10px;
 }
 ::-webkit-scrollbar {
   width: 9px;
