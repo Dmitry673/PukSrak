@@ -1,0 +1,58 @@
+body {
+  background-color: #DEDECA    
+}
+.h1 {
+  font-family: Arial;
+    font-size: 1.8em;
+    color: #630;
+}
+.h2 {
+    color: #555;
+}
+.h3 {
+    color: #963
+}
+.a {
+    color: #360
+}
+.c:before { margin-right: 10px; }
+   .spades:before { content: '\2660'; }
+   .clubs:before { content: '\2663'; }
+   .diamonds:before {
+    content: '\2666';
+    color: red;
+   }
+   .hearts:before {
+    content: '\2665';
+    color: red;
+   }
+.japan {
+    background-color: #ffffff;
+    height: 200px;
+    width: 300px;
+    border: 2px solid #ccc;
+    background: radial-gradient(circle, #bc002d 58px, #fff 60px);
+        
+}7576d74902be3c10f49bc801ab6d3bfd9f8ed6c9
+.stold1 {
+    background: red;
+}
+.stold2 {
+    
+}
+.stold3 {
+    
+}
+.popopu {
+    height: 500px;
+    width: 400px;
+    background-color: green;
+}
+.h11 {
+    font-size: 31px;
+    color: white;
+}
+.h111 {
+    font-size: 20px;
+    color: lightgray;
+}
